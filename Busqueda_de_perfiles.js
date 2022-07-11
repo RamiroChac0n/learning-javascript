@@ -45,10 +45,14 @@ const contacts = [
     for (let i = 0; i < contacts.length; i++) {
         if (contacts[i].hasOwnProperty(prop) && contacts[i].firstName == name) {
             return contacts[i][prop];
+        }else if (contacts[i].hasOwnProperty(prop) && contacts[i].firstName != name) {
+            return "No such contact";
+        } else {
+            
         }
     }
-    return "No such contact"
+    return "No such property";
     // Cambia solo el código encima de esta línea
   }
   
-  console.log(lookUpProfile("Akira", "likes"));
+  console.log(lookUpProfile("Harry", "likes"));
