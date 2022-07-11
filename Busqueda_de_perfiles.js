@@ -42,16 +42,15 @@ const contacts = [
   
   function lookUpProfile(name, prop) {
     // Cambia solo el código debajo de esta línea
-    for (let i = 0; i < contacts.length; i++) {
-        if (contacts[i].hasOwnProperty(prop) && contacts[i].firstName == name) {
-            return contacts[i][prop];
-        }else if (contacts[i].hasOwnProperty(prop) && contacts[i].firstName != name) {
-            return "No such contact";
-        } else {
-            
+    for(let i = 0; i < contacts.length; i++){
+
+      if(contacts[i].firstName == name){
+        if(contacts[i].hasOwnProperty(prop)){
+          return contacts[i][prop];
         }
+      }
+  
     }
-    return "No such property";
     // Cambia solo el código encima de esta línea
   }
   
