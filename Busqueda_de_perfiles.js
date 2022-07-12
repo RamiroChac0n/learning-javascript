@@ -51,12 +51,10 @@ const contacts = [
         }else{
           return "No such property";
         }
-
-      }else{
-        return "No such contact"
       }
   
     }
+    return "No such contact"
     // Cambia solo el código encima de esta línea
   }
   
