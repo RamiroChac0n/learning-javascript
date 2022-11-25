@@ -31,4 +31,5 @@ console.log("3\t1\t3\t9\t27");
 console.log("4\t1\t4\t16\t64");
 console.log("5\t1\t5\t25\t125");
 //  12.
-console.log("Hola")
+let frase2 = 'No puedes terminar una oración con porque porque porque es una conjunción';
+console.log(frase2.substring(35, 55));
