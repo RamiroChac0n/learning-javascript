@@ -1,5 +1,5 @@
 //  1.
-/*let base = prompt('Ingrese la base del triangulo');
+let base = prompt('Ingrese la base del triangulo');
 let altura = prompt('Ingrese la altura del triangulo');
 console.log(`El area del triangulo es: ${0.5 * altura * base}`);
 //  2.
@@ -50,14 +50,14 @@ alert(`Tu primer nombre, ${firstName}, es ${firstName.length > lastName.length ?
 let myAge = 250;
 let yourAge = 25;
 console.log(`${myAge > yourAge ? `Soy ${myAge - yourAge} años mayor que tú.`:`Soy ${yourAge - myAge} años menor que tú.`}`);
-//  13.*/
-let now = new Date();/*
+//  13.
+let now = new Date();
 let anioNacimiento = prompt('Introduzca el año de nacimiento:');
 let edad = now.getFullYear() - anioNacimiento;
 alert(`Tienes ${edad}, ${edad >= 18 ? `Tienes la edad suficiente para conducir.` : `Podrás conducir después de ${18 - edad} años.`}`);
 //  14.
 let aniosDeVida = prompt('Ingrese el número de años de vida:');
-alert(`Viviste ${aniosDeVida*365*24*60*60} segundos.`);*/
+alert(`Viviste ${aniosDeVida*365*24*60*60} segundos.`);
 //  15.
 const YYYY = now.getFullYear();
 const MM = now.getMonth() +1;
