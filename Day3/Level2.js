@@ -45,8 +45,13 @@ alert(`Su nombre es ${suNombre.length > 7 ? 'Largo': 'Corto'}`);
 //  11.
 let firstName = prompt('Cual es su primer nombre?');
 let lastName = prompt('Cual es su primer apellido?');
-alert(`Tu primer nombre, ${firstName}, es ${firstName.length > lastName.length ? 'mas largo' : 'mas pequeño'} que tu apellido, ${lastName}.`);*/
+alert(`Tu primer nombre, ${firstName}, es ${firstName.length > lastName.length ? 'mas largo' : 'mas pequeño'} que tu apellido, ${lastName}.`);
 //  12.
 let myAge = 250;
 let yourAge = 25;
-console.log(`${myAge > yourAge ? `Soy ${myAge - yourAge} años mayor que tú.`:`Soy ${yourAge - myAge} años menor que tú.`}`);
+console.log(`${myAge > yourAge ? `Soy ${myAge - yourAge} años mayor que tú.`:`Soy ${yourAge - myAge} años menor que tú.`}`);*/
+//  13.
+let now = new Date();
+let anioNacimiento = prompt('Introduzca el año de nacimiento:');
+let edad = now.getFullYear() - anioNacimiento;
+alert(`Tienes ${edad}, ${edad >= 18 ? `Tienes la edad suficiente para conducir.` : `Podrás conducir después de ${18 - edad} años.`}`);
