@@ -50,11 +50,20 @@ alert(`Tu primer nombre, ${firstName}, es ${firstName.length > lastName.length ?
 let myAge = 250;
 let yourAge = 25;
 console.log(`${myAge > yourAge ? `Soy ${myAge - yourAge} años mayor que tú.`:`Soy ${yourAge - myAge} años menor que tú.`}`);
-//  13.
-let now = new Date();
+//  13.*/
+let now = new Date();/*
 let anioNacimiento = prompt('Introduzca el año de nacimiento:');
 let edad = now.getFullYear() - anioNacimiento;
-alert(`Tienes ${edad}, ${edad >= 18 ? `Tienes la edad suficiente para conducir.` : `Podrás conducir después de ${18 - edad} años.`}`);*/
+alert(`Tienes ${edad}, ${edad >= 18 ? `Tienes la edad suficiente para conducir.` : `Podrás conducir después de ${18 - edad} años.`}`);
 //  14.
 let aniosDeVida = prompt('Ingrese el número de años de vida:');
-alert(`Viviste ${aniosDeVida*365*24*60*60} segundos.`);
+alert(`Viviste ${aniosDeVida*365*24*60*60} segundos.`);*/
+//  15.
+const YYYY = now.getFullYear();
+const MM = now.getMonth() +1;
+const DD = now.getDate();
+const HH = now.getHours();
+const mm = now.getMinutes();
+alert(`YYYY-MM-DD HH:mm\n${YYYY}-${MM}-${DD} ${HH}:${mm}`);
+alert(`DD-MM-YYYY HH:mm\n${DD}-${MM}-${YYYY} ${HH}:${mm}`);
+alert(`DD/MM/YYYY HH:mm\n${DD}/${MM}/${YYYY} ${HH}:${mm}`);
