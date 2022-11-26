@@ -29,9 +29,13 @@ console.log(`La pendiente es: ${pendiente1}`);
 let pendiente2 = (10-2)/(6-2);
 console.log(`La pendiente entre el punto (2,2) y el punto (6,10) es: ${pendiente2}`);
 //  7.
-console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2}`);*/
+console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2}`);
 //  8.
 function f (x){
     return x**2 + 6*x +9;
 };
-console.log(f(-3));
+console.log(f(-3));*/
+//  9.
+let horas = prompt('Ingrese horas');
+let tarifaHora = prompt('Tarifa por hora?');
+alert(`Su ganancia semanal es de: ${horas * tarifaHora}`);
