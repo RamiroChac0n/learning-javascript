@@ -15,7 +15,7 @@ console.log(`El area del rectangulo es: ${largo * ancho}, su perimetro es: ${2 *
 const PI = Math.PI;
 let radio = parseInt(prompt('Ingrese el radio del circulo'));
 console.log(`El area del circulo es: ${PI * radio * radio}, su perimetro es: ${2 * PI * radio}`);
-//  5.*/
+//  5.
 function f (x){
     y = 2*x -2;
     return y;
@@ -29,4 +29,9 @@ console.log(`La pendiente es: ${pendiente1}`);
 let pendiente2 = (10-2)/(6-2);
 console.log(`La pendiente entre el punto (2,2) y el punto (6,10) es: ${pendiente2}`);
 //  7.
-console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2}`);
+console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2}`);*/
+//  8.
+function f (x){
+    return x**2 + 6*x +9;
+};
+console.log(f(-3));
