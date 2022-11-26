@@ -39,6 +39,10 @@ console.log(f(-3));
 let horas = prompt('Ingrese horas');
 let tarifaHora = prompt('Tarifa por hora?');
 alert(`Su ganancia semanal es de: ${horas * tarifaHora}`);
-//  10.*/
+//  10.
 let suNombre = prompt('Su primer nombre es?');
 alert(`Su nombre es ${suNombre.length > 7 ? 'Largo': 'Corto'}`);
+//  11.*/
+let firstName = prompt('Cual es su primer nombre?');
+let lastName = prompt('Cual es su primer apellido?');
+alert(`Tu primer nombre, ${firstName}, es ${firstName.length > lastName.length ? 'mas largo' : 'mas pequeño'} que tu apellido, ${lastName}.`);
