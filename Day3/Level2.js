@@ -21,6 +21,12 @@ function f (x){
     return y;
 }
 let interseccionX = 2/2;
+let pendiente1 = (f(1) - f(0))/(1 - 0);
 console.log(`La interseccion en X es: ${interseccionX}`);
 console.log(`La interseccion en y es: ${f(0)}`);
-console.log(`La pendiente es: ${(f(1) - f(0))/(1 - 0)}`);
+console.log(`La pendiente es: ${pendiente1}`);
+//  6.
+let pendiente2 = (10-2)/(6-2);
+console.log(`La pendiente entre el punto (2,2) y el punto (6,10) es: ${pendiente2}`);
+//  7.
+console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2}`);
