@@ -34,8 +34,11 @@ console.log(`La pendiente 1 es: ${pendiente1}, y la pendiente 2 es: ${pendiente2
 function f (x){
     return x**2 + 6*x +9;
 };
-console.log(f(-3));*/
+console.log(f(-3));
 //  9.
 let horas = prompt('Ingrese horas');
 let tarifaHora = prompt('Tarifa por hora?');
 alert(`Su ganancia semanal es de: ${horas * tarifaHora}`);
+//  10.*/
+let suNombre = prompt('Su primer nombre es?');
+alert(`Su nombre es ${suNombre.length > 7 ? 'Largo': 'Corto'}`);
