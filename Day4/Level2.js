@@ -1,5 +1,5 @@
 //  1.
-/*let puntaje = prompt('Ingrese su puntaje');
+let puntaje = prompt('Ingrese su puntaje');
 switch(true){
     case puntaje > 79: alert('Usted obtuvo una A');break;
     case puntaje > 69: alert('Usted obtuvo una B');break;
@@ -14,7 +14,7 @@ switch(mes.toLowerCase()){
     case 'diciembre': case 'enero': case 'febrero':alert('La temporada es Invierno.');break;
     case 'marzo': case 'abril': case 'mayo':alert('La temporada es Primavera.');break;
     case 'junio': case 'julio': case 'agosto':alert('La temporada es Verano.');break;
-}*/
+}
 //  3.
 let hoy = prompt('Que dia es hoy?');
 switch(hoy.toLowerCase()){
