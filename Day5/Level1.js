@@ -23,3 +23,26 @@ console.log(`El numero de empresas en el array es: ${itCompanies.length}`);
 console.log(`La primera empresa es: ${itCompanies[0]},
 La empresa intermedia es: ${itCompanies[Math.round(itCompanies.length / 2) - 1]},
 La ultima empresa es: ${itCompanies[itCompanies.length - 1]}`);
+//  10.
+console.log(itCompanies[0]);
+console.log(itCompanies[1]);
+console.log(itCompanies[2]);
+console.log(itCompanies[3]);
+console.log(itCompanies[4]);
+console.log(itCompanies[5]);
+//  11.
+console.log(itCompanies[0].toUpperCase());
+console.log(itCompanies[1].toUpperCase());
+console.log(itCompanies[2].toUpperCase());
+console.log(itCompanies[3].toUpperCase());
+console.log(itCompanies[4].toUpperCase());
+console.log(itCompanies[5].toUpperCase());
+//  12.
+console.log(itCompanies + ' son grandes empresas de TI.');
+//  13.
+let empresaBuscar = 'Walmart';
+if(itCompanies.includes(empresaBuscar)){
+    console.log(itCompanies[itCompanies.indexOf(empresaBuscar)]);
+}else{
+    console.log(empresaBuscar + ' no existe.');
+};
