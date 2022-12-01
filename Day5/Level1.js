@@ -54,6 +54,8 @@ console.log(itCompanies.sort());
 //  16.
 console.log(itCompanies.reverse());
 //  17.
-console.log(itCompanies.splice(0,3));
+itCompanies.splice(0,3)
+console.log(itCompanies);
 //  18.
-console.log(itCompanies.splice(itCompanies.length - 3,3));
+itCompanies.splice(itCompanies.length - 3,3);
+console.log(itCompanies);
