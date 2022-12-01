@@ -58,7 +58,7 @@ itCompanies.splice(0,3)
 console.log(itCompanies);
 //  18.
 itCompanies.splice(itCompanies.length - 3,3);
-console.log(itCompanies);*/
+console.log(itCompanies);
 //  19.
 console.log(itCompanies);
 if(itCompanies.length % 2 == 0){
@@ -66,4 +66,7 @@ if(itCompanies.length % 2 == 0){
 }else{
     itCompanies.splice(Math.floor(itCompanies.length / 2), 1);
 };
+console.log(itCompanies);*/
+//  20.
+itCompanies.shift();
 console.log(itCompanies);
