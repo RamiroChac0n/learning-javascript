@@ -53,3 +53,7 @@ console.log(empresasFiltro.match(/[a-np-z]+\o{2}[a-np-z]+|[a-np-z]+\o[a-np-z]+\o
 console.log(itCompanies.sort());
 //  16.
 console.log(itCompanies.reverse());
+//  17.
+console.log(itCompanies.splice(0,3));
+//  18.
+console.log(itCompanies.splice(itCompanies.length - 3,3));
