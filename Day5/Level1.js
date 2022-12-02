@@ -52,13 +52,11 @@ console.log(empresasFiltro.match(/[a-np-z]+\o{2}[a-np-z]+|[a-np-z]+\o[a-np-z]+\o
 //  15.
 console.log(itCompanies.sort());
 //  16.
-/*console.log(itCompanies.reverse());
+//console.log(itCompanies.reverse());
 //  17.
-itCompanies.splice(0,3)
-console.log(itCompanies);
+console.log(itCompanies.slice(0,3));
 //  18.
-itCompanies.splice(itCompanies.length - 3,3);
-console.log(itCompanies);
+console.log(itCompanies.slice(itCompanies.length - 3,itCompanies.length));
 //  19.
 console.log(itCompanies);
 if(itCompanies.length % 2 == 0){
@@ -66,7 +64,4 @@ if(itCompanies.length % 2 == 0){
 }else{
     itCompanies.splice(Math.floor(itCompanies.length / 2), 1);
 };
-console.log(itCompanies);*/
-//  20.
-itCompanies.shift();
 console.log(itCompanies);
