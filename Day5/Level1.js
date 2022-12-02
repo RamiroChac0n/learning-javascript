@@ -65,7 +65,7 @@ if(itCompanies.length % 2 == 0){
     console.log(itCompanies.slice(Math.floor(itCompanies.length / 2), Math.floor(itCompanies.length / 2 +1)));
 };
 //  20.
-/*console.log(itCompanies);
+console.log(itCompanies);
 itCompanies.shift();
 console.log(itCompanies);
 //  21.
@@ -79,7 +79,7 @@ console.log(itCompanies);
 //  22.
 console.log(itCompanies);
 itCompanies.pop();
-console.log(itCompanies);*/
+console.log(itCompanies);
 //  23.
 console.log(itCompanies);
 console.log(itCompanies.splice());
