@@ -19,3 +19,10 @@ shoppingCart.splice(shoppingCart.indexOf('Honey'),1)
 console.log(shoppingCart);
 shoppingCart[shoppingCart.indexOf('Tea')] = 'Green Tea';
 console.log(shoppingCart);
+//  4.
+if(countries.indexOf('Ethiopia') == -1){
+    countries.push('Ethiopia');
+    countries.sort();
+}else{
+    console.log('ETHIOPIA');
+};
