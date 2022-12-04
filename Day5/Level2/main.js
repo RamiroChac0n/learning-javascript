@@ -33,3 +33,9 @@ if(webTechs.indexOf('Sass') == -1){
 }else{
     console.log('Sass es un preproceso de CSS');
 };
+//  6.
+const frontEnd = ["HTML", "CSS", "JS", "React", "Redux"];
+const backEnd = ["Node", "Express", "MongoDB"];
+
+const fullStack = frontEnd.concat(backEnd);
+console.log(fullStack);
