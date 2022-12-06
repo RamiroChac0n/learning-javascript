@@ -36,7 +36,42 @@ do {
 
 //  3.
 //Usar la extension "Live server" de vscode
-let n = prompt('Ingrese el numero hasta donde desea iterar');
+/*let n = prompt('Ingrese el numero hasta donde desea iterar');
 for (let index = 0; index <= n; index++) {
     console.log(index);
-}
+}*/
+//  4.
+let numerales = '';
+for (let index = 0; index < 7; index++) {
+    numerales += '#';
+    console.log(numerales);
+};
+//  5.
+for (let index = 0; index < 11; index++) {
+    console.log(`${index} x ${index} = ${index ** 2}`);
+    
+};
+//  6.
+console.log('Potencias:');
+console.log('i\ti^2\ti^3');
+let inciso6 = 0;
+while (inciso6 < 11) {
+    console.log(`${inciso6}\t${inciso6 ** 2}\t${inciso6 ** 3}`);
+    inciso6++;
+};
+//  7.
+console.log('De 0 a 100 solo numeros pares usando \'for\':');
+for (let index = 0; index < 101; index++) {
+    if (index%2 == 0) {
+        console.log(index);
+    };
+    
+};
+//  8.
+console.log('De 0 a 100 solo numeros impares usando \'for\':');
+for (let index = 0; index < 101; index++) {
+    if (!(index%2 == 0) || index == 0) {
+        console.log(index);
+    };
+    
+};
