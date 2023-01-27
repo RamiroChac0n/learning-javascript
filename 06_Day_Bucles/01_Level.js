@@ -87,3 +87,9 @@ for (let numero = 0; numero <= 100; numero++) {
         continue;
     console.log(numero);
 }
+//  10.
+var suma = 0;
+for (let index = 0; index < 101; index++) {
+    suma += index;
+}
+console.log(`La suma de 0 a 100 es: ${suma}`);
