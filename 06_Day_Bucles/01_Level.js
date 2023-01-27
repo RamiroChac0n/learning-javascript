@@ -75,3 +75,15 @@ for (let index = 0; index < 101; index++) {
     };
     
 };
+//  9.
+console.log('De 0 a 100 solo numeros primos usando \'for\':');
+for (let numero = 0; numero <= 100; numero++) {
+    var divisores = 0;
+    for (let divisor = 2; divisor < numero; divisor++) {
+        if(numero % divisor == 0)
+            divisores++;
+    }
+    if(divisores > 0 || numero < 2)
+        continue;
+    console.log(numero);
+}
