@@ -73,7 +73,7 @@ for (let index = 0; index < 101; index++) {
     if (!(index%2 == 0) || index == 0) {
         console.log(index);
     };
-    
+ 
 };
 //  9.
 console.log('De 0 a 100 solo numeros primos usando \'for\':');
@@ -93,3 +93,17 @@ for (let index = 0; index < 101; index++) {
     suma += index;
 }
 console.log(`La suma de 0 a 100 es: ${suma}`);
+//  11.
+let sumaPares = 0;
+for (let index = 0; index < 101; index++) {
+    if (index%2 == 0) {
+        sumaPares += index;
+    };   
+};
+let sumaImpares = 0;
+for (let index = 0; index < 101; index++) {
+    if (!(index%2 == 0) || index == 0) {
+        sumaImpares += index;
+    };
+};
+console.log(`La suma de todos los pares de 0 a 100 es ${sumaPares}. Y La suma de todos los impares de 0 a 100 es ${sumaImpares}.`);
