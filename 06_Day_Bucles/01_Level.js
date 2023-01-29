@@ -93,6 +93,7 @@ for (let index = 0; index < 101; index++) {
     suma += index;
 }
 console.log(`La suma de 0 a 100 es: ${suma}`);
+
 //  11.
 let sumaPares = 0;
 for (let index = 0; index < 101; index++) {
@@ -107,3 +108,17 @@ for (let index = 0; index < 101; index++) {
     };
 };
 console.log(`La suma de todos los pares de 0 a 100 es ${sumaPares}. Y La suma de todos los impares de 0 a 100 es ${sumaImpares}.`);
+
+//  12.
+const sumaArray = [0, 0];
+for (let index = 0; index < 101; index++) {
+    if (index%2 == 0) {
+        sumaArray[0] += index;
+    };   
+};
+for (let index = 0; index < 101; index++) {
+    if (!(index%2 == 0) || index == 0) {
+        sumaArray[1] += index;
+    };
+};
+console.log(sumaArray);
