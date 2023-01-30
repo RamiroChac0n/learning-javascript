@@ -122,3 +122,10 @@ for (let index = 0; index < 101; index++) {
     };
 };
 console.log(sumaArray);
+
+//  13.
+let matrizRandom = [];
+for (let index = 0; index < 6; index++) {
+     matrizRandom[index] = Math.floor(Math.random() * 11);
+}
+console.log(matrizRandom);
