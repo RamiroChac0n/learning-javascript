@@ -125,7 +125,27 @@ console.log(sumaArray);
 
 //  13.
 let matrizRandom = [];
-for (let index = 0; index < 6; index++) {
+for (let index = 0; index < 5; index++) {
      matrizRandom[index] = Math.floor(Math.random() * 11);
 }
 console.log(matrizRandom);
+
+//  14.
+let matrizRandomUnicos = [];
+for (let index = 0; index < 5; index++) {
+
+    let numUnico = Math.floor(Math.random() * 11);
+
+     matrizRandomUnicos[index] = numUnico;
+
+     for (let j = 0; j < index; j++) {
+
+        if(matrizRandomUnicos[j] == numUnico){
+            numUnico = Math.floor(Math.random() * 11);
+            matrizRandomUnicos[index] = numUnico;
+            j=0;
+        }
+
+     }
+}
+console.log(matrizRandomUnicos);
