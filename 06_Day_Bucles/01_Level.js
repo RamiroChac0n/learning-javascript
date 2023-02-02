@@ -133,19 +133,7 @@ console.log(matrizRandom);
 //  14.
 let matrizRandomUnicos = [];
 for (let index = 0; index < 5; index++) {
-
-    let numUnico = Math.floor(Math.random() * 11);
-
-     matrizRandomUnicos[index] = numUnico;
-
-     for (let j = 0; j < index; j++) {
-
-        if(matrizRandomUnicos[j] == numUnico){
-            numUnico = Math.floor(Math.random() * 11);
-            matrizRandomUnicos[index] = numUnico;
-            j=0;
-        }
-
-     }
+    let numUnico = Math.floor(Math.random() * 6);
+    matrizRandomUnicos[index] = numUnico;
 }
 console.log(matrizRandomUnicos);
