@@ -1,4 +1,4 @@
-//  1.
+/*//  1.
 console.log('Bucle \'for\'')
 for(let i = 0; i < 11; i++){
     console.log(i);
@@ -36,10 +36,10 @@ do {
 
 //  3.
 //Usar la extension "Live server" de vscode
-/*let n = prompt('Ingrese el numero hasta donde desea iterar');
+let n = prompt('Ingrese el numero hasta donde desea iterar');
 for (let index = 0; index <= n; index++) {
     console.log(index);
-}*/
+}
 //  4.
 let numerales = '';
 for (let index = 0; index < 7; index++) {
@@ -128,12 +128,21 @@ let matrizRandom = [];
 for (let index = 0; index < 5; index++) {
      matrizRandom[index] = Math.floor(Math.random() * 11);
 }
-console.log(matrizRandom);
+console.log(matrizRandom);*/
 
 //  14.
 let matrizRandomUnicos = [];
+let numeroUnico;
+let iterador = 0;
 for (let index = 0; index < 5; index++) {
-    let numUnico = Math.floor(Math.random() * 6);
-    matrizRandomUnicos[index] = numUnico;
+    numeroUnico = Math.floor(Math.random() * 6);
+    if (matrizRandomUnicos.includes(numeroUnico)) {
+        while (matrizRandomUnicos.includes(numeroUnico)) {
+            numeroUnico = Math.floor(Math.random() * 6);
+        }
+        matrizRandomUnicos.push(numeroUnico);
+    }else{
+        matrizRandomUnicos.push(numeroUnico);
+    }
 }
 console.log(matrizRandomUnicos);
