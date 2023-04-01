@@ -1,4 +1,4 @@
-/*//  1.
+//  1.
 console.log('Bucle \'for\'')
 for(let i = 0; i < 11; i++){
     console.log(i);
@@ -40,17 +40,20 @@ let n = prompt('Ingrese el numero hasta donde desea iterar');
 for (let index = 0; index <= n; index++) {
     console.log(index);
 }
+
 //  4.
 let numerales = '';
 for (let index = 0; index < 7; index++) {
     numerales += '#';
     console.log(numerales);
 };
+
 //  5.
 for (let index = 0; index < 11; index++) {
     console.log(`${index} x ${index} = ${index ** 2}`);
     
 };
+
 //  6.
 console.log('Potencias:');
 console.log('i\ti^2\ti^3');
@@ -59,6 +62,7 @@ while (inciso6 < 11) {
     console.log(`${inciso6}\t${inciso6 ** 2}\t${inciso6 ** 3}`);
     inciso6++;
 };
+
 //  7.
 console.log('De 0 a 100 solo numeros pares usando \'for\':');
 for (let index = 0; index < 101; index++) {
@@ -67,6 +71,7 @@ for (let index = 0; index < 101; index++) {
     };
     
 };
+
 //  8.
 console.log('De 0 a 100 solo numeros impares usando \'for\':');
 for (let index = 0; index < 101; index++) {
@@ -75,6 +80,7 @@ for (let index = 0; index < 101; index++) {
     };
  
 };
+
 //  9.
 console.log('De 0 a 100 solo numeros primos usando \'for\':');
 for (let numero = 0; numero <= 100; numero++) {
@@ -87,6 +93,7 @@ for (let numero = 0; numero <= 100; numero++) {
         continue;
     console.log(numero);
 }
+
 //  10.
 var suma = 0;
 for (let index = 0; index < 101; index++) {
@@ -145,7 +152,7 @@ for (let index = 0; index < 5; index++) {
         matrizRandomUnicos.push(numeroUnico);
     }
 }
-console.log(matrizRandomUnicos);*/
+console.log(matrizRandomUnicos);
 
 //  15.
 let chars = 'abcdefghijklmnopqrstuvwxyz';
