@@ -128,7 +128,7 @@ let matrizRandom = [];
 for (let index = 0; index < 5; index++) {
      matrizRandom[index] = Math.floor(Math.random() * 11);
 }
-console.log(matrizRandom);*/
+console.log(matrizRandom);
 
 //  14.
 let matrizRandomUnicos = [];
@@ -145,4 +145,31 @@ for (let index = 0; index < 5; index++) {
         matrizRandomUnicos.push(numeroUnico);
     }
 }
-console.log(matrizRandomUnicos);
+console.log(matrizRandomUnicos);*/
+
+//  15.
+let chars = 'abcdefghijklmnopqrstuvwxyz';
+let numbers = '0123456789';
+let symbols = '!@#$%^&*()_+{}|:"<>?';
+let passwordArray = [];
+let password = '';
+let randomNumber;
+
+while(passwordArray.length < 6){
+    randomNumber = Math.floor(Math.random() * 3);
+    switch (randomNumber) {
+        case 0:
+            passwordArray.push(chars[Math.floor(Math.random() * chars.length)]);
+            break;
+        case 1:
+            passwordArray.push(numbers[Math.floor(Math.random() * numbers.length)]);
+            break;
+        case 2:
+            passwordArray.push(symbols[Math.floor(Math.random() * symbols.length)]);
+            break;
+        default:
+            break;
+    }
+}
+password = passwordArray.join('');
+console.log(password);
