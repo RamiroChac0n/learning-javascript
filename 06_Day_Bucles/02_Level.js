@@ -22,3 +22,25 @@ while (idArray.length < length) {
 }
 id = idArray.join("");
 console.log(id);
+
+//  2.
+let lettersHex = "abcdef";
+let numbersHex = "0123456789";
+let hexArray = ['#'];
+let hex = "";
+while(hexArray.length < 7){
+    switch (Math.floor(Math.random() * 2)) {
+        case 0:
+            charRandomHex = lettersHex[Math.floor(Math.random() * lettersHex.length)];
+            hexArray.push(charRandomHex);
+            break;
+        case 1:
+            charRandomHex = numbersHex[Math.floor(Math.random() * numbersHex.length)];
+            hexArray.push(charRandomHex);
+            break;
+        default:
+            break;
+    };
+}
+hex = hexArray.join("");
+console.log(hex);
