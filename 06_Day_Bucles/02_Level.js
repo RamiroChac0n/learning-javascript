@@ -44,3 +44,11 @@ while(hexArray.length < 7){
 }
 hex = hexArray.join("");
 console.log(hex);
+
+//  3.
+let rgbArray = [];
+let intensity;
+for (let index = 0; index < 3; index++) {
+    rgbArray.push(Math.floor(Math.random() * 255));
+}
+console.log('rgb('+rgbArray[0]+','+rgbArray[1]+','+rgbArray[2]+')');
