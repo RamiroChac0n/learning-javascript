@@ -81,8 +81,15 @@ for (let index = 0; index < 3; index++) {
 console.log('rgb('+rgbArray[0]+','+rgbArray[1]+','+rgbArray[2]+')');
 
 //  4.
-let newCountriesArray = []
+let newCountriesArray = [];
 for (let index = 0; index < countries.length; index++) {
     newCountriesArray.push(countries[index]);
 }
 console.log(newCountriesArray);
+
+//  5.
+let countriesLenghtArray = [];
+for (let index = 0; index < countries.length; index++) {
+    countriesLenghtArray.push(countries[index].length);
+}
+console.log(countriesLenghtArray);
