@@ -1,3 +1,30 @@
+//  Extras
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+
+const mernStack = ['MongoDB', 'Express', 'React', 'Node']
+
+const webTechs = [
+    'HTML',
+    'CSS',
+    'JavaScript',
+    'React',
+    'Redux',
+    'Node',
+    'MongoDB'
+  ]
+
 //  1.
 let letters = "abcdefghijklmnopqrstuvwxyz";
 let numbers = "0123456789";
@@ -52,3 +79,10 @@ for (let index = 0; index < 3; index++) {
     rgbArray.push(Math.floor(Math.random() * 255));
 }
 console.log('rgb('+rgbArray[0]+','+rgbArray[1]+','+rgbArray[2]+')');
+
+//  4.
+let newCountriesArray = []
+for (let index = 0; index < countries.length; index++) {
+    newCountriesArray.push(countries[index]);
+}
+console.log(newCountriesArray);
