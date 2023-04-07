@@ -1,5 +1,7 @@
+# Exercise 06
 Use the countries array to create the following array of arrays:
-  [
+```
+[
   ['Albania', 'ALB', 7],
   ['Bolivia', 'BOL', 7],
   ['Canada', 'CAN', 6],
@@ -13,3 +15,4 @@ Use the countries array to create the following array of arrays:
   ['Japan', 'JAP', 5],
   ['Kenya', 'KEN', 5]
 ]
+```
