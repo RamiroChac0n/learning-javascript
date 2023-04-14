@@ -1,5 +1,5 @@
-function fullName(firstName, lastName){
-    return `My name is ${firstName} ${lastName}`;
+function fullName(){
+    console.log("My name is Ramiro Chacon");
 }
 
-console.log(fullName('Ramiro', 'Chacon'));
+fullName();
