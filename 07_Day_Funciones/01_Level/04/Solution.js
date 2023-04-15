@@ -1,6 +1,6 @@
-function perimeterOfRectangle(length, width){
+function areaOfRectangle(length, width){
     area = length * width;
     return area;
 }
 
-console.log(`Area is: ${perimeterOfRectangle(4,3)}`);
+console.log(`Area is: ${areaOfRectangle(4,3)}`);
